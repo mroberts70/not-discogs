@@ -156,6 +156,8 @@ main {
 .three-boxes {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: .5em;
 }
 .three-boxes div {
@@ -330,7 +332,11 @@ footer a {
     list-style: none;
     gap: 1em;
 }
-
+.manage-cookies {
+    outline: 1px solid white;
+    outline-offset: .75em;
+    margin-inline: .75em;
+}
 
 
 
